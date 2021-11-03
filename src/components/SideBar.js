@@ -18,12 +18,15 @@ const SideBar = () => {
                     shadow-lg"
     >
       <SideBarIcon icon={<FaFire size="28" />} text="tooltip 🔥  " />
+      <Divider />
       <SideBarIcon icon={<BsPlus size="32" />} text="tooltip ➕ " />
       <SideBarIcon
         icon={<BsFillLightningFill size="20" />}
         text="tooltip ⚡  "
       />
       <SideBarIcon icon={<FaPoo size="20" />} text="tooltip 💩 " />
+      <Divider />
+      <SideBarIcon icon={<BsGearFill size="22" />} />
     </div>
   );
 };
@@ -34,4 +37,6 @@ const SideBarIcon = ({ icon, text }) => (
     <span class="sidebar-tooltip hidden group-hover:block">{text}</span>
   </div>
 );
+
+const Divider = () => <hr className="sidebar-hr" />;
 export default SideBar;
