@@ -13,7 +13,7 @@ const ChannelBar = () => {
       <div className="channel-container">
         <DropDown header="Topics" selections={topics} />
         <DropDown header="Questions" selections={questions} />
-        <DropDown header="Random" selections={questions} />
+        <DropDown header="Random" selections={random} />
       </div>
     </div>
   );

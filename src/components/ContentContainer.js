@@ -42,7 +42,7 @@ const ContentContainer = () => {
         <Post
           name="The_$killer"
           timestamp="5 days ago"
-          text={`Im from 🇺🇸 2 nice to mee you 😄  `}
+          text={`Im from 🇺🇸 2 nice to meet you 😄  `}
         />
         <Post
           name="ThE_ImPosterR"
@@ -68,7 +68,7 @@ const BottonBar = () => (
     <input
       type="text"
       placeholder="Enter message..."
-      className="botom-bar-input"
+      className="bottom-bar-input"
     />
   </div>
 );

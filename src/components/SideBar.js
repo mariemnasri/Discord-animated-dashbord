@@ -26,7 +26,7 @@ const SideBar = () => {
       />
       <SideBarIcon icon={<FaPoo size="20" />} text="tooltip 💩 " />
       <Divider />
-      <SideBarIcon icon={<BsGearFill size="22" />} />
+      <SideBarIcon icon={<BsGearFill size="22" />} text="tooltip 😆 " />
     </div>
   );
 };
